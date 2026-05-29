@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Outfit:wght@300;400;500;600;700&family=DM+Mono:wght@400;500&display=swap');
+@import "tailwindcss";
+
+:root {
+  --bg: #0A0E1A;
+  --surface: #131929;
+  --surface2: #1C2540;
+  --border: #1E2D4A;
+  --text: #C8D4F0;
+  --muted: #5A6A8A;
+  --lime: #C5F135;
+  --lime-dim: rgba(197, 241, 53, 0.12);
+  --coral: #FF5E5B;
+  --coral-dim: rgba(255, 94, 91, 0.12);
+  --amber: #FFAD40;
+  --amber-dim: rgba(255, 173, 64, 0.12);
+  --teal: #38EFC8;
+  --teal-dim: rgba(56, 239, 200, 0.12);
+}
+
+* {
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+}
+
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: 'Outfit', sans-serif;
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  max-width: 480px;
+  margin: 0 auto;
+  min-height: 100dvh;
+  position: relative;
+}
+
+.font-display {
+  font-family: 'Bebas Neue', sans-serif;
+}
+
+.font-mono {
+  font-family: 'DM Mono', monospace;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar { width: 4px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: var(--border); border-radius: 2px; }
+
+/* Page fade in */
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(16px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+.page-enter {
+  animation: fadeUp 0.35s ease both;
+}
+
+/* Ring pulse */
+@keyframes ringPulse {
+  0%, 100% { filter: drop-shadow(0 0 6px var(--lime)); }
+  50%       { filter: drop-shadow(0 0 14px var(--lime)); }
+}
+
+.ring-glow {
+  animation: ringPulse 3s ease-in-out infinite;
+}
+
+/* Shimmer for loading */
+@keyframes shimmer {
+  0%   { background-position: -200% center; }
+  100% { background-position: 200% center; }
+}
+
+.shimmer {
+  background: linear-gradient(90deg, var(--surface) 25%, var(--surface2) 50%, var(--surface) 75%);
+  background-size: 200% 100%;
+  animation: shimmer 1.5s infinite;
+}
+
+/* Input base */
+input, select {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  color: var(--text);
+  border-radius: 12px;
+  padding: 12px 16px;
+  font-family: 'Outfit', sans-serif;
+  font-size: 16px;
+  outline: none;
+  width: 100%;
+  transition: border-color 0.2s;
+}
+
+input:focus, select:focus {
+  border-color: var(--lime);
+}
+
+input::placeholder {
+  color: var(--muted);
+}
+
+select option {
+  background: var(--surface);
+}
+
+/* Button base */
+button {
+  cursor: pointer;
+  font-family: 'Outfit', sans-serif;
+  border: none;
+  outline: none;
+}
