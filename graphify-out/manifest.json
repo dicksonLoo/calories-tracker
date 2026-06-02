@@ -1,0 +1,87 @@
+{
+  "C:\\Users\\PC\\Documents\\CodeProject\\calories-tracker\\src\\App.tsx": {
+    "mtime": 1780036354.1485405,
+    "ast_hash": "04e41073beff3d5bdbfe7574008f0496",
+    "semantic_hash": "04e41073beff3d5bdbfe7574008f0496"
+  },
+  "C:\\Users\\PC\\Documents\\CodeProject\\calories-tracker\\src\\main.tsx": {
+    "mtime": 1779958581.7991035,
+    "ast_hash": "787e5a07efeb2bf6209d5937195f2f68",
+    "semantic_hash": "787e5a07efeb2bf6209d5937195f2f68"
+  },
+  "C:\\Users\\PC\\Documents\\CodeProject\\calories-tracker\\src\\components\\AddFoodModal.tsx": {
+    "mtime": 1780036433.840063,
+    "ast_hash": "36ec6892e8228d172f3cfb618fc21f51",
+    "semantic_hash": "36ec6892e8228d172f3cfb618fc21f51"
+  },
+  "C:\\Users\\PC\\Documents\\CodeProject\\calories-tracker\\src\\components\\BottomNav.tsx": {
+    "mtime": 1780035874.9637074,
+    "ast_hash": "898b5652c5b90081d213ca71719bad70",
+    "semantic_hash": "898b5652c5b90081d213ca71719bad70"
+  },
+  "C:\\Users\\PC\\Documents\\CodeProject\\calories-tracker\\src\\components\\DailyRing.tsx": {
+    "mtime": 1780035886.3337562,
+    "ast_hash": "d3c033fe995ebc3aaa159bf3d65cd035",
+    "semantic_hash": "d3c033fe995ebc3aaa159bf3d65cd035"
+  },
+  "C:\\Users\\PC\\Documents\\CodeProject\\calories-tracker\\src\\components\\MealSection.tsx": {
+    "mtime": 1780036153.4994144,
+    "ast_hash": "70b8aed5b75d219e0e0c5485ca1755c9",
+    "semantic_hash": "70b8aed5b75d219e0e0c5485ca1755c9"
+  },
+  "C:\\Users\\PC\\Documents\\CodeProject\\calories-tracker\\src\\components\\SuggestionBanner.tsx": {
+    "mtime": 1780036150.093413,
+    "ast_hash": "ea2b772a0d6ff0802fd8d4f7bbafed8f",
+    "semantic_hash": "ea2b772a0d6ff0802fd8d4f7bbafed8f"
+  },
+  "C:\\Users\\PC\\Documents\\CodeProject\\calories-tracker\\src\\db\\index.ts": {
+    "mtime": 1780036141.109311,
+    "ast_hash": "5364e36ab01928945cd4cab548768bd6",
+    "semantic_hash": "5364e36ab01928945cd4cab548768bd6"
+  },
+  "C:\\Users\\PC\\Documents\\CodeProject\\calories-tracker\\src\\lib\\bmr.ts": {
+    "mtime": 1780036143.9772117,
+    "ast_hash": "63e15305962138ac007d386b7237b67c",
+    "semantic_hash": "63e15305962138ac007d386b7237b67c"
+  },
+  "C:\\Users\\PC\\Documents\\CodeProject\\calories-tracker\\src\\lib\\suggestions.ts": {
+    "mtime": 1780036147.0272546,
+    "ast_hash": "14c62c5351de910cdf76cb2fae3e021a",
+    "semantic_hash": "14c62c5351de910cdf76cb2fae3e021a"
+  },
+  "C:\\Users\\PC\\Documents\\CodeProject\\calories-tracker\\src\\pages\\Charts.tsx": {
+    "mtime": 1780036186.6887403,
+    "ast_hash": "ee59f18751d6edc65087b1078454d9e5",
+    "semantic_hash": "ee59f18751d6edc65087b1078454d9e5"
+  },
+  "C:\\Users\\PC\\Documents\\CodeProject\\calories-tracker\\src\\pages\\Home.tsx": {
+    "mtime": 1780036168.349646,
+    "ast_hash": "8e9f200c230d77c2bbe793043890b161",
+    "semantic_hash": "8e9f200c230d77c2bbe793043890b161"
+  },
+  "C:\\Users\\PC\\Documents\\CodeProject\\calories-tracker\\src\\pages\\Onboarding.tsx": {
+    "mtime": 1780036363.672619,
+    "ast_hash": "1b474f22e7604e8f8059cdf1875d53e0",
+    "semantic_hash": "1b474f22e7604e8f8059cdf1875d53e0"
+  },
+  "C:\\Users\\PC\\Documents\\CodeProject\\calories-tracker\\src\\pages\\Profile.tsx": {
+    "mtime": 1780036175.0877018,
+    "ast_hash": "f21488f452dd1b26df57282da63a1cd2",
+    "semantic_hash": "f21488f452dd1b26df57282da63a1cd2"
+  },
+  "C:\\Users\\PC\\Documents\\CodeProject\\calories-tracker\\src\\assets\\hero.png": {
+    "mtime": 1779958581.6856909,
+    "ast_hash": "aead493361b27e7510691c5d7072dfc1",
+    "semantic_hash": "aead493361b27e7510691c5d7072dfc1"
+  },
+  "C:\\Users\\PC\\Documents\\CodeProject\\calories-tracker\\src\\assets\\react.svg": {
+    "mtime": 1779958581.745314,
+    "ast_hash": "f0402b67b6ce880f65666bb49e841696",
+    "semantic_hash": "f0402b67b6ce880f65666bb49e841696"
+  },
+  "C:\\Users\\PC\\Documents\\CodeProject\\calories-tracker\\src\\assets\\vite.svg": {
+    "mtime": 1779958581.7590346,
+    "ast_hash": "9960a24288958394ac50e57ff638b036",
+    "semantic_hash": "9960a24288958394ac50e57ff638b036"
+  }
+}
